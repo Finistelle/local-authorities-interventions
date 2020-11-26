@@ -1,0 +1,33 @@
+@import "../../../assets/styles/styles";
+
+.create-container {
+  margin-top: rem(60);
+
+  .error {
+    color: $primary-red;
+  }
+
+  label, input, textarea {
+    display: block;
+    width: 100%;
+    line-height: 2;
+    border-radius: rem(5);
+  }
+
+  input, textarea {
+    border: rem(1) solid $secondary-grey;
+    margin-bottom: rem(30);
+    padding: rem(8);
+
+    &::placeholder {
+      opacity: 0.5;
+    }
+  }
+
+  p {
+    font-size: rem(13);
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+}
+

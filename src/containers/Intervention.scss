@@ -1,0 +1,32 @@
+@import "../assets/styles/styles";
+
+.detail-main-container {
+  margin: rem(40) auto auto auto;
+  width: rem(500);
+
+  .action-container {
+    display: flex;
+    justify-content: space-between;
+
+    .cancel {
+      border: rem(1) solid $secondary-grey;
+      color: $secondary-grey;
+
+      &:hover, &:focus {
+        background: $secondary-grey;
+        color: $primary-white;
+      }
+    }
+
+    .create-action {
+      border: none;
+      color: $primary-yellow;
+      background-color: $secondary-yellow;
+
+      &:hover, &:focus {
+        background-color: $secondary-yellow;
+        color: $primary-yellow;
+      }
+    }
+  }
+}

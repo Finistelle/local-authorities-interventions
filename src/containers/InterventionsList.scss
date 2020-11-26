@@ -1,0 +1,31 @@
+@import "../assets/styles/styles";
+
+.list-container {
+  position: relative;
+  margin-top: rem(40);
+  width: 100%;
+  border-radius: rem(15);
+
+  .actions {
+    display: flex;
+
+    button {
+      color: $primary-white;
+      background-color: $primary-yellow;
+      border: none;
+      margin: 0 rem(30) rem(30) 0;
+
+      &:hover, &:focus {
+        background: $primary-white;
+        color: $primary-yellow;
+      }
+    }
+
+    p {
+      color: $secondary-grey;
+      font-weight: 700;
+      font-size: rem(14);
+      line-height: 3;
+    }
+  }
+}

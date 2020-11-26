@@ -1,0 +1,22 @@
+@import "../../../../assets/styles/styles";
+
+.date-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: $primary-white;
+  background-color: $primary-black;
+  border-radius: rem(10);
+  padding: rem(13) rem(14);
+  width: rem(50);
+
+  .day {
+    font-size: rem(19);
+    margin: rem(-9);
+  }
+
+  .month {
+    margin-bottom: rem(-8);
+  }
+}

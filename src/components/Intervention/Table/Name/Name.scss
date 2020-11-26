@@ -1,0 +1,15 @@
+@import "../../../../assets/styles/styles";
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  min-width: rem(197);
+
+  .name {
+    font-weight: 700
+  }
+
+  .date {
+    color: $secondary-grey
+  }
+}
