@@ -1,7 +1,5 @@
 # Local Authorities Interventions
 
-Le but de ce test est d'évaluer tes capacités à implémenter les solutions qui permettront à ton interface de communiquer avec une API, de gérer les données et de respecter l'intégration d'un design donné. Nous attendons de ta part que tu sois également capable de maîtriser les outils que nous utilisons dans nos projets.
-
 ## Stack technique
 
 Ce projet est basé sur React.
@@ -18,7 +16,7 @@ Le routage se base sur **react-router-dom**.
 2. Faire en sorte que les interventions puissent être triées selon leur date de création.
 3. Créer une page dédiée pour les interventions, accessible en cliquant sur une ligne du tableau.
 4. Créer un formulaire pour créer une nouvelle intervention.
-5. Respecter le design selon les maquettes fournies.
+5. Respecter le design selon les maquettes fournies. (non disponibles sur git)
 
 ## Détails
 
@@ -40,7 +38,7 @@ Le bouton **Retour** renvoit vers la liste des interventions.
 ### 4. Créer un formulaire pour créer une nouvelle intervention.
 
 En cliquant sur le bouton **Créer une intervention**, l'utilisateur doit être redirigé sur la page `/create` qui présente un formulaire de création.
-Tu devras créer cette page et gérer le routage.
+Créer cette page et gérer le routage.
 Le formulaire permet de renseigner les champs :
 
 - `name` : nom
@@ -80,9 +78,3 @@ node server/server.js
 ```
 
 _Note : le port par défaut de l'API est 3001._
-
-## Rendu
-
-Tu peux nous rendre ton test terminé sous la forme d'un zip (**sans `node_modules`**) ou d'un dépôt git en ligne.
-
-N'hésites pas à nous contacter si tu as la moindre question !
