@@ -78,3 +78,9 @@ node server/server.js
 ```
 
 _Note : le port par défaut de l'API est 3001._
+
+## Points d'amélioration
+
+- Ajouter davantage d'API (see, create, etc.)
+- Ajouter des TU
+- Ajouter Typescript + ESLint
